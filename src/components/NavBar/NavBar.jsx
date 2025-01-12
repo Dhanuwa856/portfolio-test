@@ -8,7 +8,7 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#050c17] flex items-center justify-between px-5 py-4 md:px-10">
+    <nav className="bg-mainColor flex items-center justify-between px-5 py-4 md:px-10">
       <div className="flex items-center justify-between w-full md:w-auto">
         <Link to={"/"}>
           <img src="/logo.svg" alt="logo" className="h-8 cursor-pointer" />
